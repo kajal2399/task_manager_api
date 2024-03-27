@@ -6,8 +6,7 @@ ruby "3.0.0"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
 # Use postgresql as the database for Active Record
-gem "pg", "~> 1.1"
-
+gem 'pg', '~> 1.5.6'
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
@@ -38,7 +37,11 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
+  gem 'rack-cors'
+  gem 'rspec-rails'
+  gem 'byebug'
 end
+
 
 group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
