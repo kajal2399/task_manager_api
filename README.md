@@ -1,24 +1,26 @@
-# README
+# Task Management App API (Backend)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project provides the backend API for a task management application. It allows for creating, reading, updating, and deleting tasks with title, description, and status.
 
-Things you may want to cover:
+## Technologies Used
 
-* Ruby version
+- Ruby on Rails
+- PostgreSQL
 
-* System dependencies
+## Getting Started
 
-* Configuration
+### Prerequisites
 
-* Database creation
+- Ruby version: "3.0.0"
+- Rails version: "~> 7.1.3", ">= 7.1.3.2"
+- PostgreSQL
 
-* Database initialization
+### Installation
 
-* How to run the test suite
+1. Clone the repository:
+2. Navigate to the project directory:
+3. Install dependencies:
+4. Create and migrate the database:
+5. Start the server:
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
